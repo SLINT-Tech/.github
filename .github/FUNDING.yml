@@ -1,0 +1,8 @@
+# Shows a "Sponsor" button on every SLINT Tech repository.
+#
+# Uncomment a line once the corresponding account is live. A link that 404s
+# looks worse than no button at all, so leave these commented until verified.
+
+# github: [SLINT-Tech]                        # requires GitHub Sponsors approval
+# open_collective: slint-tech
+# custom: ["https://slinttech.org/donate"]

@@ -1,0 +1,46 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the problem, not the solution. Who is affected and how?
+      placeholder: New members can't tell which career cell fits them, so they pick at random.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What else did you consider?
+      description: Other approaches you thought about, and why this one is better.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to work on this?
+      options:
+        - "Yes, I'd like to build it"
+        - "Yes, but I'd need guidance or a pair"
+        - "No, just suggesting"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
