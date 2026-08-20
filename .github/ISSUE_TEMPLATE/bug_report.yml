@@ -1,0 +1,71 @@
+name: 🐛 Bug report
+description: Something is broken or behaving unexpectedly
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. If this is a **security vulnerability**, stop here and follow
+        our [security policy](https://github.com/SLINT-Tech/.github/blob/main/SECURITY.md) instead.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug.
+      placeholder: The signup form accepts an empty phone number and then fails silently.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Be specific enough that someone else can hit the same bug.
+      placeholder: |
+        1. Go to /signup
+        2. Leave the phone field empty
+        3. Click Submit
+        4. Nothing happens and no error appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Where did you see this?
+      placeholder: |
+        Browser: Chrome 130 on Windows 11
+        Device: Desktop
+        Branch or version: main @ a1b2c3d
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, errors, or screenshots
+      description: Paste any error output. It will be formatted as code automatically.
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: This is not a security vulnerability
+          required: true
+        - label: I removed any passwords, tokens, or personal data from what I pasted above
+          required: true

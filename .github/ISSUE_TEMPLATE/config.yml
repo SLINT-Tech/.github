@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Ask a question
+    url: https://github.com/SLINT-Tech/.github/blob/main/SUPPORT.md
+    about: Stuck on a project or a learning path? Start with your Cell Leader or SUPPORT.md.
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/SLINT-Tech/.github/blob/main/SECURITY.md
+    about: Never report security issues publicly. Follow our security policy instead.
+  - name: 🙋 Join SLINT Tech
+    url: https://slinttech.org
+    about: Apply for membership through our website.
+  - name: 🤝 Partnerships and press
+    url: mailto:communications@slinttech.org
+    about: Talk to the Office of Communications and Media.
