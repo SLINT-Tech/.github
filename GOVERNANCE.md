@@ -45,66 +45,62 @@ Office of Programs and Curriculum.
 
 ## How This Maps to GitHub
 
-Teams in this organization mirror the structure above:
+The Board governs the whole organization, but most of it never touches a repository — Finance,
+Recruitment, and HR do their work in email, documents, and meetings. So GitHub teams mirror the
+**career cells**, where the code actually lives, rather than the board offices.
 
 ```
-@SLINT-Tech/offices                    parent team — all board offices
-  ├── @SLINT-Tech/leadership                   Office of Leadership
-  ├── @SLINT-Tech/operations                   Office of Operations
-  ├── @SLINT-Tech/programs-and-curriculum      Office of Programs and Curriculum
-  ├── @SLINT-Tech/outreach-and-membership      Office of Community Outreach and Membership
-  ├── @SLINT-Tech/finance-and-administration   Office of Finance and Administration
-  ├── @SLINT-Tech/communications-and-media     Office of Communications and Media
-  ├── @SLINT-Tech/mentorship                   Office of Mentorship and Member Development
-  └── @SLINT-Tech/recruitment                  Office of Recruitment
+@SLINT-Tech/cells                      parent team — every career cell
+  ├── @SLINT-Tech/software-engineering   architecture, testing, delivery
+  ├── @SLINT-Tech/frontend               HTML, CSS, JavaScript, TypeScript, React
+  ├── @SLINT-Tech/backend                APIs, databases, server-side systems
+  ├── @SLINT-Tech/cybersecurity          secure coding, app and network security
+  ├── @SLINT-Tech/cloud                  cloud platforms, containers, CI/CD
+  ├── @SLINT-Tech/data-analysis          SQL, dashboards, business intelligence
+  ├── @SLINT-Tech/data-science           statistics, Python, applied data science
+  └── @SLINT-Tech/ai-and-ml              machine learning, deep learning, applied AI
 
-@SLINT-Tech/cells                      parent team — all career cells
-  ├── @SLINT-Tech/software-engineering
-  ├── @SLINT-Tech/frontend
-  ├── @SLINT-Tech/backend
-  ├── @SLINT-Tech/cybersecurity
-  ├── @SLINT-Tech/cloud
-  ├── @SLINT-Tech/data-analysis
-  ├── @SLINT-Tech/data-science
-  └── @SLINT-Tech/ai-and-ml
-
+@SLINT-Tech/cell-leaders               every Cell Leader — announcements, cross-cell coordination
 @SLINT-Tech/maintainers                cross-cutting reviewers with write access
-@SLINT-Tech/cell-leaders               all Cell Leaders — announcements and cross-cell coordination
 ```
+
+Mention a team to pull the right people into a review: `@SLINT-Tech/backend`.
 
 ### Repository roles
 
 | Role | Who | Can |
 | --- | --- | --- |
-| **Owner** | Founder & Executive Director, Director of Operations | Everything, including org settings and billing |
-| **Maintainer** | `@SLINT-Tech/maintainers`, Cell Leaders on their cell's repos | Merge pull requests, manage issues, cut releases |
-| **Member** | All verified members | Read all repos, open issues and pull requests |
+| **Owner** | Founder & Executive Director, Co-Founder & Deputy Director | Everything, including organization settings and billing |
+| **Maintainer** | `@SLINT-Tech/maintainers`, and Cell Leaders on their own cell's repositories | Merge pull requests, manage issues, cut releases |
+| **Member** | All verified members, through their cell team | Read all repositories, open issues and pull requests |
 | **Outside collaborator** | Invited partners and volunteers | Access to specific repositories only |
 
-New members default to **read** access. Write access to a repository is granted through the
-owning team, not to individuals.
+New members default to **read**. Write access is granted through a cell team, never to an
+individual — that way access follows the person's role and is removed when the role changes.
 
-Current team grants:
+Current grants:
 
 | Team | Repository | Permission |
 | --- | --- | --- |
 | `@SLINT-Tech/maintainers` | `slinttech.org` | write |
+| `@SLINT-Tech/maintainers` | `.github` | admin |
 | `@SLINT-Tech/frontend` | `slinttech.org` | write |
-| `@SLINT-Tech/communications-and-media` | `slinttech.org` | triage |
 | `@SLINT-Tech/cells` | `slinttech.org` | read |
-| `@SLINT-Tech/leadership` | `.github` | admin |
-| `@SLINT-Tech/offices` | `.github` | read |
+| `@SLINT-Tech/cells` | `.github` | read |
 
 ### Who approves what
 
 | Change | Approver |
 | --- | --- |
-| Code in a cell's project repo | A maintainer of that cell |
-| Curriculum or learning-path content | Office of Programs & Curriculum |
-| Anything in `.github` (org-wide defaults) | Office of Leadership |
-| Public-facing website content | Office of Communications & Media |
-| Creating, archiving, or deleting a repository | Organization owner |
+| Code in a cell's project repository | A maintainer of that cell |
+| Curriculum or learning-path content | The Cell Leader, with the Office of Programs & Curriculum |
+| Anything in `.github` (organization-wide defaults) | `@SLINT-Tech/maintainers` or an owner |
+| Public-facing website content | Office of Communications & Media, via an owner |
+| Creating, archiving, or deleting a repository | An organization owner |
 | Adding a new organization owner | Founder & Executive Director |
+
+Offices that do not appear here still direct the work — they simply do it off GitHub, and an
+owner carries the decision into the repository.
 
 ## Becoming a Leader
 

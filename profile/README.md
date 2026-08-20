@@ -18,7 +18,7 @@ values-driven leadership so they can build a prosperous, just society.
 To empower a new generation of selfless, innovative leaders in Ghana, united in their commitment
 to transform society through technology, integrity, and a deep sense of purpose. We envision a
 future where young minds are equipped to break barriers, challenge the status quo, and lead with
-courage  using their skills to create a prosperous and just society that honors God, serves the
+courage, using their skills to create a prosperous and just society that honors God, serves the
 community, and uplifts our nation.
 
 ## Our Mission
