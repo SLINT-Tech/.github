@@ -5,7 +5,7 @@
 **Selfless Leadership and Innovation for a New Tomorrow**
 
 A registered nonprofit in Ghana equipping young people with technical skills, mentorship, and
-values-driven leadership — so they can build a prosperous, just society.
+values-driven leadership so they can build a prosperous, just society.
 
 [![Website](https://img.shields.io/badge/web-slinttech.org-0F766E?style=flat-square)](https://slinttech.org)
 [![Nonprofit](https://img.shields.io/badge/GitHub-Verified%20Nonprofit-0F766E?style=flat-square&logo=github)](https://github.com/SLINT-Tech)
@@ -18,7 +18,7 @@ values-driven leadership — so they can build a prosperous, just society.
 To empower a new generation of selfless, innovative leaders in Ghana, united in their commitment
 to transform society through technology, integrity, and a deep sense of purpose. We envision a
 future where young minds are equipped to break barriers, challenge the status quo, and lead with
-courage — using their skills to create a prosperous and just society that honors God, serves the
+courage  using their skills to create a prosperous and just society that honors God, serves the
 community, and uplifts our nation.
 
 ## Our Mission
