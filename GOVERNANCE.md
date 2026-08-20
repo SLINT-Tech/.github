@@ -48,27 +48,28 @@ Office of Programs and Curriculum.
 Teams in this organization mirror the structure above:
 
 ```
-@SLINT-Tech/offices          parent team — all board offices
-  ├── leadership
-  ├── operations
-  ├── programs-curriculum
-  ├── outreach-membership
-  ├── finance-admin
-  ├── communications-media
-  ├── mentorship
-  └── recruitment
+@SLINT-Tech/offices                    parent team — all board offices
+  ├── @SLINT-Tech/leadership                   Office of Leadership
+  ├── @SLINT-Tech/operations                   Office of Operations
+  ├── @SLINT-Tech/programs-and-curriculum      Office of Programs and Curriculum
+  ├── @SLINT-Tech/outreach-and-membership      Office of Community Outreach and Membership
+  ├── @SLINT-Tech/finance-and-administration   Office of Finance and Administration
+  ├── @SLINT-Tech/communications-and-media     Office of Communications and Media
+  ├── @SLINT-Tech/mentorship                   Office of Mentorship and Member Development
+  └── @SLINT-Tech/recruitment                  Office of Recruitment
 
-@SLINT-Tech/cells            parent team — all career cells
-  ├── software-engineering
-  ├── frontend
-  ├── backend
-  ├── cybersecurity
-  ├── cloud
-  ├── data-analysis
-  ├── data-science
-  └── ai-ml
+@SLINT-Tech/cells                      parent team — all career cells
+  ├── @SLINT-Tech/software-engineering
+  ├── @SLINT-Tech/frontend
+  ├── @SLINT-Tech/backend
+  ├── @SLINT-Tech/cybersecurity
+  ├── @SLINT-Tech/cloud
+  ├── @SLINT-Tech/data-analysis
+  ├── @SLINT-Tech/data-science
+  └── @SLINT-Tech/ai-and-ml
 
-@SLINT-Tech/maintainers      cross-cutting reviewers with write access
+@SLINT-Tech/maintainers                cross-cutting reviewers with write access
+@SLINT-Tech/cell-leaders               all Cell Leaders — announcements and cross-cell coordination
 ```
 
 ### Repository roles
@@ -82,6 +83,17 @@ Teams in this organization mirror the structure above:
 
 New members default to **read** access. Write access to a repository is granted through the
 owning team, not to individuals.
+
+Current team grants:
+
+| Team | Repository | Permission |
+| --- | --- | --- |
+| `@SLINT-Tech/maintainers` | `slinttech.org` | write |
+| `@SLINT-Tech/frontend` | `slinttech.org` | write |
+| `@SLINT-Tech/communications-and-media` | `slinttech.org` | triage |
+| `@SLINT-Tech/cells` | `slinttech.org` | read |
+| `@SLINT-Tech/leadership` | `.github` | admin |
+| `@SLINT-Tech/offices` | `.github` | read |
 
 ### Who approves what
 
