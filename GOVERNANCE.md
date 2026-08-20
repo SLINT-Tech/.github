@@ -87,6 +87,9 @@ Current grants:
 | `@SLINT-Tech/frontend` | `slinttech.org` | write |
 | `@SLINT-Tech/cells` | `slinttech.org` | read |
 | `@SLINT-Tech/cells` | `.github` | read |
+| `@SLINT-Tech/maintainers` | `curriculum` | admin |
+| `@SLINT-Tech/cell-leaders` | `curriculum` | write |
+| `@SLINT-Tech/cells` | `curriculum` | triage |
 
 ### Who approves what
 

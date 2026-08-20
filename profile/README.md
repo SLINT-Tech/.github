@@ -58,11 +58,20 @@ awards for outstanding work.
 
 ---
 
+## Our Repositories
+
+| Repository | What it is |
+| --- | --- |
+| [**curriculum**](https://github.com/SLINT-Tech/curriculum) | Weekly learning tasks, project showcases, and a learning path for every cell |
+| [**slinttech.org**](https://github.com/SLINT-Tech/slinttech.org) | Our website |
+| [**.github**](https://github.com/SLINT-Tech/.github) | Organization-wide policies and templates |
+
 ## Get Involved
 
 | I want to… | Start here |
 | --- | --- |
 | Join as a member | [slinttech.org](https://slinttech.org) |
+| Find something to build | [curriculum issues](https://github.com/SLINT-Tech/curriculum/labels/level%3Abeginner) |
 | Contribute code | [CONTRIBUTING.md](https://github.com/SLINT-Tech/.github/blob/main/CONTRIBUTING.md) |
 | Partner or sponsor | [info@slinttech.org](mailto:info@slinttech.org) |
 | Report a security issue | [SECURITY.md](https://github.com/SLINT-Tech/.github/blob/main/SECURITY.md) |
